@@ -30,8 +30,6 @@ services:
             - 8000:80
         depends_on:
             - db
-            - cache
 
 volumes:
     db-data:
-    cache-data:
